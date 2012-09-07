@@ -1,0 +1,81 @@
+/* Increase height of list item so title and narrative fit */
+.x-list .x-list-item .x-list-item-label
+{
+	min-height: 3em!important; 
+	padding: 0;!important
+}
+/* Move the disclosure button up to account for the list item height increase */
+.x-list .x-list-disclosure {
+position: absolute;
+bottom: 0.7em;
+right: 0.44em;
+}
+.list-item-img
+{
+	float:left;
+	margin: 0.33em;
+}
+.list-item-title
+{
+    float:left;
+	font-size:90%;
+	white-space: nowrap;  
+    overflow: hidden;
+	text-overflow: ellipsis;
+	padding-top: 0.4em;
+	width:70%; 
+
+}
+.list-item-time
+{
+    float:left;
+    width:70%;
+    color:#666666;
+    font-size:80%;
+    white-space: nowrap;  
+    overflow: hidden;  
+    text-overflow: ellipsis; 
+	padding-top: 0.2em;  
+
+}
+.x-item-selected .list-item-title 
+{
+    color:#ffffff;
+}
+.x-item-selected .list-item-narrative
+{
+    color:#ffffff;
+}
+.notes-list-empty-text 
+{
+    padding:10px;
+}
+
+.x-tab .x-button-icon.timer,
+.x-button .x-button-icon.x-icon-mask.timer {
+	-webkit-mask-image: url('../image/job_open.png');
+}
+
+.x-tab .x-button-icon.usa-flag,
+.x-button .x-button-icon.x-icon-mask.usa-flag {
+	-webkit-mask-image: url('../image/usa-flag-icon.png');
+}
+
+.x-tab .x-button-icon.vietnam-flag,
+.x-button .x-button-icon.x-icon-mask.vietnam-flag {
+	-webkit-mask-image: url('../image/vietnam-flag-icon.png');
+}
+/* 
+.x-item-disabled .x-form-label span, .x-item-disabled input, .x-item-disabled .x-input-el, .x-item-disabled .x-spinner-body, .x-item-disabled select, .x-item-disabled textarea, .x-item-disabled .x-field-clear-container {
+	-webkit-text-fill-color: black;
+	color: black;
+}
+*/
+.x-item-disabled .x-form-label span, .x-item-disabled input {
+	-webkit-text-fill-color: black !important;
+	color: black !important;
+}
+
+.x-item-disabled textarea {
+	-webkit-text-fill-color: #9F9F9F !important;
+}
